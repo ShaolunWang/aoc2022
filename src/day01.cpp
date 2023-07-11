@@ -39,6 +39,5 @@ void sol() {
     x.pop();
   }
   std::cout << "Sum of Top 3: " << k << std::endl;
-
 }
 } // namespace aoc::day01

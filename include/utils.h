@@ -1,13 +1,9 @@
 #ifndef _AOC_UTILS_
 #define _AOC_UTILS_
-#include <assert.h>
-#include <deque>
-#include <fstream>
-#include <iostream>
 #include <queue>
 
 namespace aoc::util {
-
+// This template provides a template for fixed length priority queue
 template <typename T, int MaxLen,
           typename Container =
               std::priority_queue<T, std::vector<T>, std::greater<T>>>
