@@ -12,4 +12,5 @@ project (AdventOfCode)
 add_executable(aoc
 	aoc.cpp
 	src/day01.cpp
+	src/day02.cpp
 	util/utils.cpp)
