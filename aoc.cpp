@@ -1,5 +1,6 @@
 #include "day01.h"
 #include "day02.h"
+#include "day03.h"
 
 int main() {
   int day;
@@ -15,6 +16,9 @@ int main() {
       return 0;
     case 2:
       aoc::day02::sol(pt);
+      return 0;
+    case 3:
+      aoc::day03::sol(pt);
       return 0;
     default:
       std::cout << "Not valid input, please try again" << std::endl;

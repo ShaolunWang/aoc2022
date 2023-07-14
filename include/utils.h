@@ -24,7 +24,6 @@ public:
   }
 };
 
-
 // templates for reading a file
 template <template <typename, typename = std::allocator<std::string>>
           class Container>
